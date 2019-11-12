@@ -26,7 +26,7 @@
             <label for="csvUrl">Link to the CSV used to generate the M3U.</label>
             <small id="csvUrl" class="form-text text-muted">
                 Note: the CSV must be formatted according to the standards in the
-                <a href="https://github.com/spencerthayer/ezIPTV">ezIPTV</a> documentation.
+                <a href="https://github.com/cautroi01/ezIPTV">ezIPTV</a> documentation.
             </small>
         </div>
         <?/*<div class="md-form file-field uploadForm">
