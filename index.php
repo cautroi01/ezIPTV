@@ -64,9 +64,8 @@
     function createData(){
         $db = new Db("data/data.json");
         $uid = ran(4,4);
-		$data = array(
-            //"uid" => $_POST["uid"],
-			"uid" => $uid,
+	$data = array(
+	"uid" => $uid,
             "title" => $_POST["title"],
             "csvUrl" => $_POST["csvUrl"],
             "m3uUrl" => array_values(array_filter(explode(PHP_EOL, $_POST["m3uUrl"]))),
@@ -74,7 +73,7 @@
             );
         $db->insert($data);
         //header("location: ".url().$_POST["uid"]);
-		header("location: ".url().$uid);
+	header("location: ".url().$uid);
     }
     function readData($a){
         $db = new Db("data/data.json");
