@@ -20,6 +20,7 @@
                 Note: a title is not required and is used only to help organize the list55555.
             </small>
         </div>
+        <input type="hidden" id="title" name="title" value="<?=$v["uid"];?>"/>
         <div class="md-form">
             <input type="text" class="form-control" id="csvUrl" name="csvUrl" value="<?=$v["csvUrl"];?>"/>
             <label for="csvUrl">Link to the CSV used to generate the M3U.</label>
