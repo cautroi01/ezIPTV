@@ -11,15 +11,13 @@
         }
     }
     echo "\n";
-    echo $itemURL;
-    print_r($v);
 ?>
     <form action="<? update($v["uid"]); ?>" method="post">
         <div class="md-form mb-4">
             <input type="text" id="title" name="title" class="form-control" value="<?=$v["title"];?>"/>
             <label for="title">Title of the URL.</label>
             <small id="title" class="form-text text-muted">
-                Note: a title is not required and is used only to help organize the list.
+                Note: a title is not required and is used only to help organize the list55555.
             </small>
         </div>
         <div class="md-form">
