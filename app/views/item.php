@@ -11,6 +11,7 @@
         }
     }
     echo "\n";
+    echo $itemURL;
     print_r($v);
 ?>
     <form action="<? update($v["uid"]); ?>" method="post">
