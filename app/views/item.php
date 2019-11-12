@@ -17,7 +17,7 @@
             <input type="text" id="title" name="title" class="form-control" value="<?=$v["title"];?>"/>
             <label for="title">Title of the URL.</label>
             <small id="title" class="form-text text-muted">
-                Note: a title is not required and is used only to help organize the list55555.
+                Note: a title is not required and is used only to help organize the list.
             </small>
         </div>
         <input type="hidden" id="uid" name="uid" value="<?=$v["uid"];?>"/>
