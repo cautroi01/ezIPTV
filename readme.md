@@ -9,11 +9,11 @@ ezIPTV was created to be a DIY solution for IPTV enthusiasts. Instead of managin
 Oh, also it's all free. ezIPTV was created with the intention of using the free Heroku self-hosted services. **And if you came here from [Reddit](https://www.reddit.com/r/IPTV/comments/bi7l5j/100_free_selfhosted_iptv_management/) thanks!**
 
 ## How to install on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/spencerthayer/ezIPTV)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/cautroi01/ezIPTV)
 
 With Heroku, anyone can build their own ezIPTV for free in just a few minutes!
 - [Create a free account with Heroku](https://signup.heroku.com/php) if you haven't done so already.
-- Just click [`Deploy to Heroku`](https://heroku.com/deploy?template=https://github.com/spencerthayer/ezIPTV).
+- Just click [`Deploy to Heroku`](https://heroku.com/deploy?template=https://github.com/cautroi01/ezIPTV).
 - Fill out the Heroku form and click build.
 - Open your new app URL and do the simple setup.
 
@@ -23,7 +23,7 @@ _THAT'S IT!_
 **Note: ezIPTV cannot be run within a domain subdirectory as of right now!**
 
 Even on hosted servers ezIPTV installation is extremely easy.
-- Either clone the repository `git clone https://github.com/spencerthayer/ezIPTV ezIPTV` or [download the zip](https://github.com/spencerthayer/ezIPTV/archive/master.zip).
+- Either clone the repository `git clone https://github.com/cautroi01/ezIPTV ezIPTV` or [download the zip](https://github.com/cautroi01/ezIPTV/archive/master.zip).
 - Clone or extract ezIPTV into the root directory of your site.
 - Ensure ezIPTV has read/write permissions for all directories.
 - Open your new app and follow the instructions.
