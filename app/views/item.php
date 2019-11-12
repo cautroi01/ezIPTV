@@ -11,6 +11,7 @@
         }
     }
     echo "\n";
+    print_r($v);
 ?>
     <form action="<? update($v["uid"]); ?>" method="post">
         <div class="md-form mb-4">
