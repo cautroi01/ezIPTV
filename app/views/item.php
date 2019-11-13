@@ -10,17 +10,17 @@
             echo "/".$x."/update";
         }
     }
-    echo "\n";
+    echo "\n";	
 ?>
-    <form action="<? update($v["uid"]); ?>" method="post">
-        <div class="md-form mb-4">
+    <form action="<? update($v["uid"]); ?>" method="post">		           
+     	  <div class="md-form mb-4">
             <input type="text" id="title" name="title" class="form-control" value="<?=$v["title"];?>"/>
             <label for="title">Title of the URL.</label>
             <small id="title" class="form-text text-muted">
                 Note: a title is not required and is used only to help organize the list.
             </small>
         </div>
-        <input type="hidden" id="uid" name="uid" value="<?=$v["uid"];?>"/>
+        <input type= "hidden" id="uid" name ="uid" value ="<?=$v["uid"];?>"/>
         <div class="md-form">
             <input type="text" class="form-control" id="csvUrl" name="csvUrl" value="<?=$v["csvUrl"];?>"/>
             <label for="csvUrl">Link to the CSV used to generate the M3U.</label>
