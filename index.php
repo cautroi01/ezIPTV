@@ -64,8 +64,9 @@
     function createData(){
         $db = new Db("data/data.json");
         $uid = ran(4,4);
-	$data = array(
-	    "uid" => $uid,
+		$data = array(
+            //"uid" => $_POST["uid"],
+			"uid" => $uid,
             "title" => $_POST["title"],
             "csvUrl" => $_POST["csvUrl"],
             "m3uUrl" => array_values(array_filter(explode(PHP_EOL, $_POST["m3uUrl"]))),
@@ -73,7 +74,7 @@
             );
         $db->insert($data);
         //header("location: ".url().$_POST["uid"]);
-	header("location: ".url().$uid);
+		header("location: ".url().$uid);
     }
     function readData($a){
         $db = new Db("data/data.json");
@@ -246,7 +247,7 @@
         require("app/vars.php");
         include("src/header.php");
         // if (!is_dir(".git")) { }
-        $gitURL     = "https://github.com/cautroi01/ezIPTV";
+        $gitURL     = "https://github.com/spencerthayer/ezIPTV";
         $outputDir  = exec("rm -rf .git");
         $outputInit = exec("git init");
         $outputAdd  = exec("git remote add origin ".$gitURL.";");
