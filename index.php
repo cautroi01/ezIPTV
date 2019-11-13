@@ -65,7 +65,7 @@
         $db = new Db("data/data.json");
         $uid = ran(4,4);
 	$data = array(
-	"uid" => $uid,
+	    "uid" => $uid,
             "title" => $_POST["title"],
             "csvUrl" => $_POST["csvUrl"],
             "m3uUrl" => array_values(array_filter(explode(PHP_EOL, $_POST["m3uUrl"]))),
